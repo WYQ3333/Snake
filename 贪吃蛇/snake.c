@@ -288,9 +288,9 @@ void KillBySelf(pSnake ps)
 void PrintHelpInfo()
 {
 	SetPos(65, 11);
-	printf("用↑，↓，←，→来控制蛇的移动");
+	printf("用↑，↓，←，→来控制蛇的移动");//定位光标，打印要打印的东西
 	SetPos(65, 12);
-	printf("F1为加速，F2为减速\n");
+	printf("F1为加速，F2为减速\n");//通过控制睡眠时间来实现加速减速，睡眠时间加长，减速反之加速
 	SetPos(65, 13);
 	printf("加速获得分数更多\n");
 	SetPos(65, 14);
